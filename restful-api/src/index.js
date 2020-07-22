@@ -17,10 +17,8 @@ app.get('/greet', (req, res) => {
   res.send("Hello world!")
 });
 
-/*
 app.get('/greet/:name'),(req, res) => {
   res.send("Hello world, " + req.params.name)
 });
-*/
 
 module.exports = app;
