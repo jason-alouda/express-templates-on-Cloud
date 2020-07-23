@@ -7,8 +7,19 @@ app.use(bodyParser.json())
 app.use(cors())
 
 app.get(`/`, (req, res) => {
-  //res.json({ message: "API running" });
-  res.send("API running")
+  res.send("This is a GET request");
+})
+
+app.post(`/`, (req, res) => {
+  res.send("This is a POST request");
+})
+
+app.put(`/`, (req, res) => {
+  res.send("This is a PUT request");
+})
+
+app.delete(`/`, (req, res) => {
+  res.send("This is a DELETE request");
 })
 
 app.get('/user', (req, res) => {
