@@ -1,0 +1,7 @@
+org: jahchuen
+app: express-restful-api
+component: express
+name: express-restful-api
+
+inputs:
+  src: ./
